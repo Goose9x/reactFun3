@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 5px 30px;
+  background-color: #D83448;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav .left {
+  font-weight: bold;
+}
+
+.nav .right {
+  display: flex;
+}
+
+.nav .homeLink {
+  margin-right: 10px;
+}
+
+/* Search Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.form button {
+  margin-top: 20px;
+  color: white;
+  background-color: #2F2D2E;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.form input {
+  padding: 5px 0px 5px 10px;
+}
+
+.Delete {
+  width: 80%;
+  margin: auto;
+}
+
+.Delete button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #F3F1F3;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Card-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Card-wrapper img {
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.Card-wrapper button {
+  color: white;
+  border: none;
+  background-color: #2F2D2E;
+  padding: 5px;
+}
+
+/* Useprofile */
+.userProfile,
+.follow,
+.repos {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #EEEDEF;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.userProfile .image {
+  text-align: center;
+}
+
+.userProfile .button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.userProfile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.userProfile button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
+}
+
+.userProfile h6 {
+  border-top: 20px;
+}
+
+/* follow */
+.follow {
+  font-size: 12px;
+}
+
+.follow .follow-1 {
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+  padding: 3px 10px;
+}
+
+.follow .follow-2 {
+  color: white;
+  border-radius: 7px;
+  padding: 3px 10px;
+  background-color: green;
+}
+
+.follow .follow-3 {
+  border-radius: 7px;
+  background-color: #F4F2F5;
+  padding: 3px;
+  border: 1px solid rgb(187, 184, 184);
+}
+
+.follow .follow-4 {
+  border-radius: 7px;
+  padding: 3px 10px;
+  color: white;
+  background-color: black;
+}
+
+.repos a {
+  text-decoration: none;
+  color: tomato;
+}
